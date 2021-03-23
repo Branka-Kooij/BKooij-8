@@ -1,6 +1,5 @@
 <link rel="stylesheet" type="text/css" href=style.css>
-
-    <div class ="HOMEpage">
+<div class ="HOMEpage">
     <nav>
         <ul>
             <li>
@@ -17,17 +16,23 @@
 <img id="branka" src="BKooij%20copy.jpeg"  width="150"alt="Branka Kooij">
 <br>
 <h2> Contact me</h2>
-<form name="contact" method="post" data-netlify="true">
-<div id="kontakt">
-    
-    <lable > Name</lable>
-    <input type="text" name="Name">
-    
-    <lable> E-mail</lable>
-    <input type="text" name="E-mail">
-    
-    <textarea name="Mesasage" rows="15" cols="50" ></textarea>
-    <input class="buttonC" type="button"  value="SEND" name="Submit" >
-        
-</div>
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
 </form>
