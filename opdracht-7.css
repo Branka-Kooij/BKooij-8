@@ -1,0 +1,174 @@
+body { 
+    color:#025955;
+    font-family:sans-serif;
+    background: #eafbea;
+    margin: 30px 40px 10px 70px
+}
+.fruit{
+    border-bottom: 1px dotted;
+    text-align: center;
+}
+#aboutme ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#aboutme li 
+{
+    display: block;
+    padding: 10px 20px;
+    width: 150px;
+    text-decoration: none;
+    float: left;
+    
+}
+
+#aboutme li a:active{
+    background: pink;
+    color: darkgreen;
+    
+}
+
+#aboutme li a:hover:not(active){
+    background: #ccffbd;
+    color:darkgreen;
+}
+     
+
+
+p { text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 85px;
+    font-style: italic
+}
+
+
+#foot {
+    background-color: blanchedalmond; 
+    text-align: center;
+    border-radius: 5px ;
+    border-bottom: 3px solid;
+    position:fixed;
+    bottom: 1px;
+    border-bottom-left-radius: 5px
+}
+    
+     
+#fruit  {
+    align-content: center;
+    text-align: center;
+    border-bottom: 60px;
+    padding: 25px;
+      
+}
+#fruit img:hover 
+           {background:#fbeeac;
+            border-radius: 55%;
+            
+             }
+
+#Lubenica {
+    text-align: justify;    
+    line-height: 1.6em    
+}
+#mango {
+    text-align: justify;
+    line-height: 1.6em 
+}
+#branka {
+    border-radius: 20%
+}
+ 
+.Homepage ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.Homepage li 
+{
+    display: block;
+    padding: 10px 20px;
+    width: 150px;
+    text-decoration: none;
+    float: left;
+    
+}
+
+.Homepage li a:active{
+    background: pink;
+    color: darkgreen;
+    
+}
+
+.Homepage li a:hover:not(active){
+    background: #ccffbd;
+    color:darkgreen;
+}
+     
+
+
+
+main {
+    background:#d8ebe4;
+    border:dotted 1px green;
+    padding-right: 15px;
+    padding-left: 15px;
+ }  
+
+header{
+    background: #c8eed9;
+    border: dotted 1px green;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 1pax
+    
+}
+#BK {
+    margin-top: 60px;
+    font-size: 34px;
+    padding-bottom: 1px
+            
+}
+
+
+#kontakt lable {
+      text-align:center;
+      padding: 5px;
+}
+
+#kontakt input {
+    outline-color: aquamarine;
+    
+    display:block; 
+    padding-right: 70px ;
+    padding-bottom: 20px/* za jedno ispod drugog*/
+    
+}
+.buttonC {
+    background: #7eca9c;
+    padding:20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+@media ( min-width:1024px) {
+section    {font-size: 1.25rem;
+    background-color:darkseagreen;
+    color: azure
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
