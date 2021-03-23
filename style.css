@@ -134,7 +134,7 @@ header{
 }
 
 
-#kontakt lable {
+#kontakt label {
       text-align:center;
       padding: 5px;
 }
@@ -147,11 +147,24 @@ header{
     padding-bottom: 20px/* za jedno ispod drugog*/
     
 }
-.buttonC {
+#kontakt p {
+    font-size: 18px;
+    text-align:left;
+    font-style: normal;
+        font-family:sans-serif;
+
+        
+}
+#kontakt textarea { 
+    display:inline-block;
+    padding: 5px
+    
+}
+#buttonC {
     background: #7eca9c;
-    padding:20px;
     font-size: 16px;
     text-align: center;
+    padding-top: 10px
 }
 
 
