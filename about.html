@@ -1,35 +1,70 @@
 <link rel="stylesheet" type="text/css" href=style.css>
 <div class ="HOMEpage">
-    <nav>
-        <ul>
-            <li>
+<nav>
+<ul>
+<li>
     <a href="index.html">Back to HOME page</a>
-            </li>
-        </ul>
-    </nav>
+</li>
+</ul>
+ </nav>
 </div>
-    <br>
+<br>
 <header id="BK">
-<h3>Branka Kooij</h3>
+      <h3>Branka Kooij</h3>
 <br>
 </header>
-<img id="branka" src="BKooij%20copy.jpeg"  width="150"alt="Branka Kooij">
+     <img id="branka" src="BKooij%20copy.jpeg"  width="150"alt="Branka Kooij">
 <br>
 
 <h2> Contact me</h2>
 <div id="kontakt">
 <form name="contact" method="POST" data-netlify="true">
-    <label>Your Name <input type="text" name="name" /></label>   
-  
-  
+   
+    <label>Your Name <input type="text" name="name" /></label>  
     <label>Your Email <input type="email" name="email" /></label>
-  
-    <p>
-    <label> Message</label>
-    </p>
-        <textarea name="message" rows="10"  cols="30"> </textarea>
+    <label>Phone Number<input type="tel" name="phone"/> </label>
+    <label> Age        <input type="text" name="Age" />  </label>
+    <label> Date of Birth<input type="date" name="date of birth" />  </label>
+    
+    <div id="MF">
+     <label>Gender:</label><br>
+    <input  type="radio"  name="gender" value="Male" checked > Male <br>
+    <input  type="radio"  name="gender" value="Female"/>Female
+    </div>
+    <br>
+    
+    <div id="Cuisine">
+    <label>Favorite cuisine:</label><br>
+    <input type="checkbox" name="Cuisine" value="Korean cuisine"> Korean cuisine
+    <input type="checkbox" name="Cuisine" value="Chines cuisine">  Chines cuisine<br>
+    <input type="checkbox" name="Cuisine" value="Italian cuisine">  Italian cuisine   <input type="checkbox" name="Cuisine" value="Serbian cuisine">  Serbian cuisine
+    </div><br>
+    
+   <div id="Favcolor">
+    <label>Favorite color</label>
+    <input type="color"   name="color" value="#ffffff "> 
+    </div>
+    <label>Biography </label>
+    <br>
+    <textarea name="Biography" rows="10" cols="50"></textarea>
+    <br>
+    <br>
+
+    <label>Upload your files</label>
+    <br>
+    <input type="file" name="File" >
+    <input type="submit"><br>
+    <label>Your webpage</label><br>
+    <input type="url" name="WEbpage">
+    <br>
+
+
+    <label> Message</label> 
+
+    <p><textarea name="message" rows="10"  cols="30"> </textarea></p>
   
   
     <button id="buttonC" type="submit">Send</button>
 </form>
 </div>
+ 
