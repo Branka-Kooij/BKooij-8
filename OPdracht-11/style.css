@@ -1,0 +1,70 @@
+
+    
+.container
+        {
+            margin:auto;
+            height: 100%;
+           display: grid;
+            grid-template-columns:1fr ;
+            grid-template-rows: 15% 50%  20% 15%
+            ;
+            grid-gap: 5px;
+            
+            grid-template-areas: 
+                "h  "
+                "m  "
+                "w "
+                "f  "  ;
+            
+          background:#eeebdd;
+            border: solid black 2px;
+            
+            
+        }
+.site-header
+{
+grid-area: h;
+    
+background:#8ac4d0;
+}
+
+.site-main
+{
+   grid-area: m; 
+background:#d8ebe4;
+
+}
+
+.wiget-area
+{
+    grid-area: w;
+    background:#b4aee8;
+
+
+    
+}
+.site-footer
+{
+    grid-area: f;            
+    background: #28527a;
+    color: beige
+
+}
+
+
+@media  ( min-width : 600px ) {
+    .site-main{
+        background:red;
+        color: blue;
+        grid-row: auto
+        
+    }
+}
+
+
+
+
+
+
+
+
