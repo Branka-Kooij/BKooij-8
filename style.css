@@ -109,7 +109,7 @@ p { text-align: center;
 }
      
 
-
+/*KONTAKT*/
 
 main {
     background:#d8ebe4;
@@ -132,11 +132,15 @@ header{
     padding-bottom: 0px
             
 }
-
+#kontakt {
+    display: flex;
+    
+}
 
 #kontakt label {
       text-align:center;
       padding: 5px;
+    
 }
 
 #kontakt input {
@@ -144,21 +148,18 @@ header{
     
     display:block; 
     padding-right: 70px ;
-    padding-bottom: 20px/* za jedno ispod drugog*/
-    
+    padding-bottom: 20px;/* za jedno ispod drugog*/
+        
 }
-#kontakt p {
-    font-size: 18px;
-    text-align:left;
-    font-style: normal;
-        font-family:sans-serif;
 
         
 }
 #kontakt textarea { 
     display:inline-block;
-    padding: 5px
+    padding: 5px;
     
+
+
 }
 #buttonS  {
     background: #7eca9c;
@@ -181,15 +182,63 @@ section    {font-size: 1.25rem;
     background-color:darkseagreen;
     color: azure
     }
-}
+    
+    /*BLOG*/
+    
+    
+.blogpost { 
+             display: flex;
+              justify-content:space-between;
+              flex-direction: column;
+              height: 850px;
+              margin-top: 50px;
+        justify-content: flex-start
+
+
+    }
 
 
 
+.blogpost1 { 
+     width:1000px;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+    flex-wrap: wrap;
 
+            
 
+  }
+ 
+    .pic{
+        
+        flex-shrink: 2;
+        flex-grow: 2;
+       justify-items: space-between;
+        
+    }
 
+    
+    
+            
+    .wm {
+       
+       padding: 10px;
+       font-size: 26pt;      
+        justify-items: space-between;
+        align-self: flex-start
 
-
-
-
-
+    
+    }
+    
+    .ma{
+        padding: 10px;
+       font-size: 26pt; 
+        align-self: center
+    }
+    
+    
+    
+    
+    
+    
